@@ -1,0 +1,265 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+                        /* Start Header */
+
+header{
+    width:1fr;
+    height: 1fr;
+    padding: 5px;
+}
+
+.navigation{
+    width: 1fr;
+    height: 1fr;
+    padding: 5px;
+}
+
+.navigation ul{
+    margin: 0;
+    height: fit-content;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navigation ul li{
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+.atag{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.atag:hover{
+    text-decoration: underline;
+}
+
+.sign-in{
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(66, 133, 244);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sign-in:hover{
+    background-color: rgb(27, 102, 201);
+}
+
+                    /* End Header */
+
+                    /* Start Body */
+
+
+.logo{
+    width: 1fr;
+    height: 1fr;
+    margin-top: 10%;
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.sec-tion{
+    width: 1fr;
+    height: 125px;
+    padding: 20px;
+}
+
+.sub-section{
+    width: 1fr;
+    height: 100%;
+}
+
+.search{
+    width: 1fr;
+    height: 50px;
+    position: relative;
+}
+
+.b2{
+    width: 600px;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.search input{
+    width: 492px;
+    height: 42px;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    outline: 1px solid rgb(216, 214, 214);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+.search input:hover{
+    box-shadow: 1px 1px 3px gray;
+}
+
+.search .m-glass{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    opacity: 0.7;
+}
+
+.mic{
+    position: absolute;
+    right: 28px;
+    top: 10px;
+}
+
+.button-2{
+    width: 600px;
+    height: 1fr;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 12px 20px;
+    margin: 25px 8px 25px 8px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    background-color: rgb(248, 249, 250);
+}
+
+.btn:hover{
+    border: 1px solid rgb(221, 217, 217);
+    border-radius: 5px;
+}
+
+.last-section{
+    width: 1fr;
+    height: 1fr;
+}
+
+.row-1{
+    width: 1fr;
+    display: flex;
+    justify-content: center;
+}
+
+.more-lang{
+    width: fit-content;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 71);
+}
+
+.more-lang a{
+    text-decoration: none;
+}
+
+.more-lang a:hover{
+    text-decoration: underline;
+}
+
+                        /* End Body */
+
+                        /* Start Footer */
+
+section .country{
+    width: 1fr;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: rgb(242, 242, 242);
+    color: gray;
+}
+
+section footer{
+    margin: 0px;
+    padding: 0px;
+    width: 1fr;
+    border-top: 1px solid rgb(206, 204, 204);
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section footer ul{
+    margin: 0;
+    padding: 15px 30px 15px 5px;
+    list-style-type: none;
+    display: flex;
+    background-color: rgb(242,242,242);
+    
+}
+
+section footer ul li{
+    margin-left: 30px;
+}
+
+
+
+
+footer ul a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+footer ul a:hover{
+    text-decoration: underline;
+}
+
+.foot{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+                        /* Making Responsive - Start */
+
+                        /* 1) For Desktop (1920*1080) */
+
+@media (min-width: 1800px){
+    .logo{
+        margin-top: 15%;
+    }
+}
+
+
+                        /* /* Making Responsive - End */
