@@ -253,13 +253,12 @@ footer ul a:hover{
 
                         /* Making Responsive - Start */
 
-                        /* 1) For Desktop (1920*1080) */
+                        /* 1) For Desktop -Chorome (1920*1080) */
 
-@media (min-width: 1920px) and (max-height: 1080px){
+@media (min-width: 1875px){
     .logo{
         margin-top: 15%;
     }
 }
-
 
                         /* /* Making Responsive - End */
